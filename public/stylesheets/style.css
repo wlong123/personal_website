@@ -1,0 +1,39 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+h1{
+  background-color: aqua;
+  font-size: 45px;
+}
+
+#name{
+  font-size: 45px;
+  text-decoration: none;
+  padding: 0px 0px;
+}
+
+a {
+  color:black;
+  font-size: small;
+  text-decoration: none
+}
+
+a:hover, a:active {
+  padding: 5px 5px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: underline;
+  opacity: 0.95;
+}
+
+ul#header li{
+  display: inline;
+  list-style-type: none; 
+}
+
+#headshot {
+  position: absolute;
+  right: 0px;
+  padding: 10px;
+}
