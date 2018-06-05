@@ -3,7 +3,7 @@ var router = express.Router();
 var path = require('path')
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
+router.all('/', function(req, res, next) {
   res.render('index');
 });
 
@@ -17,6 +17,10 @@ router.get('/headshot.jpg', function(req, res, next) {
 
 router.get('/contact', function(req, res, next){
   res.render('contact');
+})
+
+router.all('/contact/submit', function(req, res, next){
+  res.render('submit');
 })
 
 module.exports = router;

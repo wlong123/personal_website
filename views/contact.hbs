@@ -10,11 +10,12 @@
 </h1>
 <br>
 <h2>
-    <p>Shoot me an email bro</p>
+    <p>Send me a message.</p>
 
-    <form action="/action_page.php">
-    Name <input type="text" name="fname"><br>
-    Email <input type="text" name="lname"><br>
+    <form action="/contact/submit" method="POST">
+    Name<br><textarea name="name" rows="1" cols="180"></textarea> <br>
+    email<br><textarea name="email" rows="1" cols="180"></textarea> <br>
+    Message<br><textarea name="message" rows="15" cols="180"></textarea> <br>
     <input type="submit" value="Submit">
     </form>
 
